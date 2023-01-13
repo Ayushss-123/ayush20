@@ -4,9 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Homepage from "./pages/Homepage";
-import ResultsPage from "./pages/ResultsPage";
-import HotelsPage from "./pages/HotelsPage";
+import Welcome from "./pages/Welcome";
 import { useEffect } from "react";
 
 function App() {
@@ -29,14 +27,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/results-page":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/hotels-page":
-        title = "";
-        metaDescription = "";
-        break;
     }
 
     if (title) {
@@ -55,11 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Homepage />} />
-
-      <Route path="/results-page" element={<ResultsPage />} />
-
-      <Route path="/hotels-page" element={<HotelsPage />} />
+      <Route path="/" element={<Welcome />} />
     </Routes>
   );
 }
