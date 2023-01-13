@@ -1,0 +1,10 @@
+.useless-items-on {
+  position: absolute;
+  width: calc(100% - 52px);
+  top: 16.67%;
+  left: 44px;
+  letter-spacing: 0.01em;
+  line-height: 158%;
+  display: flex;
+  align-items: center;
+}

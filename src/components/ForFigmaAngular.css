@@ -1,0 +1,12 @@
+.for-figma {
+  position: absolute;
+  top: 154px;
+  left: 332px;
+  font-size: var(--font-size-2xl);
+  line-height: 116%;
+  display: flex;
+  font-family: var(--font-archivo);
+  align-items: center;
+  width: 1187px;
+  height: 63px;
+}
